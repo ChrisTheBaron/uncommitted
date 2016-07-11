@@ -1,0 +1,30 @@
+{
+  "name": "uncommitted",
+  "version": "1.0.0",
+  "description": "A simple command line script to show git repositories that have uncommitted changes.",
+  "main": "bin/uncommitted.js",
+  "scripts": {
+	"test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+	"uncommitted": "bin/uncommitted.js"
+  },
+  "author": "Chris Taylor <christhebaron@gmail.com> (https://christhebaron.co.uk)",
+  "license": "MIT",
+  "dependencies": {
+	"execa": "^0.4.0",
+	"glob": "^7.0.5",
+	"minimist": "^1.2.0",
+	"parse-git-status": "^0.1.0",
+	"q": "^1.4.1"
+  },
+  "devDependencies": {},
+  "repository": {
+	"type": "git",
+	"url": "git+https://github.com/ChrisTheBaron/uncommitted.git"
+  },
+  "bugs": {
+	"url": "https://github.com/ChrisTheBaron/uncommitted/issues"
+  },
+  "homepage": "https://github.com/ChrisTheBaron/uncommitted#readme"
+}
