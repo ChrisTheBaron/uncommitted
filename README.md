@@ -1,6 +1,6 @@
 # uncommitted
 
-> A simple library to show git repositories that have uncommitted changes.
+> A simple command line script to show git repositories that have uncommitted changes.
 
 ## Install
 
